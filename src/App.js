@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import { Helmet } from 'react-helmet';
-
+import BasicExample from './routes/base';
+import ParamsExample from './routes/urlParams';
+import AuthExample from './routes/Redirects';
 import './App.css';
 import Button from './components/Button';
 function App() {
@@ -13,6 +14,9 @@ function App() {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <header className="App-header">
+        <BasicExample />
+        <ParamsExample />
+        <AuthExample />
         <Button />
       </header>
       fa-times-rectangle
