@@ -1,0 +1,10 @@
+
+import graphql from 'babel-plugin-relay/macro';
+
+graphql`
+  query {
+    hello {
+      world
+    }
+  }
+`;
